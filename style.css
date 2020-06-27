@@ -1,0 +1,35 @@
+body{
+    background: #222;
+}
+h1{
+    text-align:center;
+    color: #fff;
+}
+
+.calculator{
+    width: 280px;
+    height: 250px;
+    margin: auto;
+    background: #fff;
+
+}
+#display{
+    margin-top:5px;
+    width:96%;
+    height: 4rem;
+}
+input{
+    font-size: large;
+    width: 4rem;
+    height: 2rem;
+    margin: 1px;
+}
+input:nth-child(18){
+    width:204px;
+}
+input:nth-child(22){
+    width: 48%!important;
+}
+input:nth-child(21){
+    width: 48%;
+}
